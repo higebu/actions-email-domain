@@ -1,0 +1,36 @@
+{
+  "name": "actions-email-domain",
+  "version": "1.0.0",
+  "description": "Check commit author's email domain",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "package": "ncc build index.js -o dist",
+    "test": "eslint index.js && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higebu/actions-email-domain.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript"
+  ],
+  "author": "Yuya Kusakabe <yuya.kusakabe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higebu/actions-email-domain/issues"
+  },
+  "homepage": "https://github.com/higebu/actions-email-domain#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/github": "^2.1.1",
+    "isomorphic-git": "^1.3.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0"
+  }
+}
