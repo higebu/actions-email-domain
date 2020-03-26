@@ -1,0 +1,10 @@
+name: 'Check email domain'
+description: "Check commit author's email domain"
+inputs:
+  domains:  # id of input
+    description: 'comma-separated email domains'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
