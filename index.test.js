@@ -20,7 +20,7 @@ test('test ok', () => {
 test('test runs', async() => {
   let sha = await git.resolveRef({ fs, dir: '.', ref: 'HEAD' })
   process.env.GITHUB_SHA = sha;
-  process.env.INPUT_DOMAINS = 'example.com,gmail.com';
+  process.env.INPUT_DOMAINS = 'example.com,gmail.com,github.com';
   const ip = path.join(__dirname, 'index.js');
   console.log(cp.execSync(`node ${ip}`, {env: process.env}).toString());
 });
