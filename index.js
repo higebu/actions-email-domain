@@ -4,7 +4,7 @@ const git = require('isomorphic-git');
 const core = require('@actions/core');
 const github = require('@actions/github');
 
-async function run() {
+async function main() {
   try { 
     let co = await git.readCommit({ fs, dir: '.', oid: github.context.sha })
     const domains = core.getInput('domains').split(',');
@@ -19,4 +19,4 @@ async function run() {
   }
 }
 
-run()
+module.exports = { main }

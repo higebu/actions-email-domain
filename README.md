@@ -1,8 +1,6 @@
 # actions-email-domain
 
-<p align="center">
-  <a href="https://github.com/higebu/actions-email-domain/actions"><img alt="status" src="https://github.com/higebu/actions-email-domain/workflows/units-test/badge.svg"></a>
-</p>
+[![test](https://github.com/higebu/actions-email-domain/actions/workflows/test.yml/badge.svg)](https://github.com/higebu/actions-email-domain/actions/workflows/test.yml)
 
 ## Usage
 
