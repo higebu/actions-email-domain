@@ -1,6 +1,6 @@
 {
   "name": "actions-email-domain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check commit author's email domain",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@zeit/ncc": "0.22.3",
-    "eslint": "7.30.0",
+    "eslint": "7.32.0",
     "jest": "27.0.6"
   }
 }
