@@ -73,7 +73,7 @@ jobs:
             github-token: ${{secrets.GITHUB_TOKEN}}
             script: |
               const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
-              await github.issues.addLabels({
+              await github.rest.issues.addLabels({
                 owner,
                 repo,
                 issue_number: ${{steps.release-pr.outputs.pr}},
