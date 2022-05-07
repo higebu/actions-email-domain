@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.5](https://github.com/higebu/actions-email-domain/compare/v1.0.4...v1.0.5) (2022-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.15.0 ([786cdb0](https://github.com/higebu/actions-email-domain/commit/786cdb00b1a0c404d0712a07d5770995f83f3594))
+* **deps:** update dependency jest to v28.0.3 ([8a99823](https://github.com/higebu/actions-email-domain/commit/8a99823de50965d0e02be92ad16e0a8aa297a99a))
+* **deps:** update dependency jest to v28.1.0 ([9229641](https://github.com/higebu/actions-email-domain/commit/92296418ddbd8511bacc940a2583a7a6ebcd24ee))
+
 ### [1.0.4](https://github.com/higebu/actions-email-domain/compare/v1.0.3...v1.0.4) (2022-04-27)
 
 
