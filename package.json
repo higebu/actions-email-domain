@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@zeit/ncc": "0.22.3",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "jest": "30.2.0"
   }
 }
